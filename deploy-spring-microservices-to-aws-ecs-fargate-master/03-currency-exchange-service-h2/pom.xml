@@ -119,6 +119,12 @@
 <!--						</goals>-->
 <!--					</execution>-->
 <!--				</executions>-->
+<!--				<configuration>-->
+<!--					<repository>neighborpil/${project.name}</repository>-->
+<!--					<tag>${project.version}</tag>-->
+<!--					<skipDockerInfo>true</skipDockerInfo>-->
+<!--				</configuration>-->
+
 				<groupId>io.fabric8</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.40.2</version>
@@ -131,11 +137,6 @@
 						</goals>
 					</execution>
 				</executions>
-<!--				<configuration>-->
-<!--					<repository>neighborpil/${project.name}</repository>-->
-<!--					<tag>${project.version}</tag>-->
-<!--					<skipDockerInfo>true</skipDockerInfo>-->
-<!--				</configuration>-->
 			</plugin>
 		</plugins>
 	</build>
