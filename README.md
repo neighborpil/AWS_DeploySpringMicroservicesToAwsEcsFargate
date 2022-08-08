@@ -52,4 +52,5 @@ arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_PORT
 arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_USERNAME
 
 
-![image](https://user-images.githubusercontent.com/22423285/183383938-454e4aab-bc77-4224-b1a1-62e9f0488ace.png)
+![image](https://user-images.githubusercontent.com/22423285/183384196-b5241389-e682-48a0-a8de-2fd8a427c346.png)
+
