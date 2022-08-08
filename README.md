@@ -41,15 +41,15 @@ SSM URN - arn:aws:ssm:us-east-1:<account-id>:parameter/
 
  - 실제 사용 하는 곳 : task definition에서 사용
  
-arn:aws:ssm:us-east-1:359068890111:parameter/dev/currency-exchange-service/RDS_DB_NAME
+arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_DB_NAME
 
-arn:aws:ssm:us-east-1:359068890111:parameter/dev/currency-exchange-service/RDS_HOSTNAME
+arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_HOSTNAME
 
-arn:aws:ssm:us-east-1:359068890111:parameter/dev/currency-exchange-service/RDS_PASSWORD
+arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_PASSWORD
 
-arn:aws:ssm:us-east-1:359068890111:parameter/dev/currency-exchange-service/RDS_PORT
+arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_PORT
 
-arn:aws:ssm:us-east-1:359068890111:parameter/dev/currency-exchange-service/RDS_USERNAME
+arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_USERNAME
 
 
 ![image](https://user-images.githubusercontent.com/22423285/183383938-454e4aab-bc77-4224-b1a1-62e9f0488ace.png)
