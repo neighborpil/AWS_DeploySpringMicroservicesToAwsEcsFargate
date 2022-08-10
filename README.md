@@ -21,6 +21,10 @@
 
 % docker push neighborpil/aws-currency-exchange-service-h2-xray:0.0.1-SNAPSHOT
 
+% docker buildx build --platform=linux/amd64 -t neighborpil/aws-currency-conversion-service-xray:0.0.1-SNAPSHOT .
+
+% docker push neighborpil/aws-currency-conversion-service-xray:0.0.1-SNAPSHOT
+
 ```
 
 ### 파라미터 저장하는 법
