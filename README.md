@@ -64,5 +64,9 @@ arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_USERN
 ![image](https://user-images.githubusercontent.com/22423285/183384196-b5241389-e682-48a0-a8de-2fd8a427c346.png)
 
 
+### app mesh
+ - 추가 요금이 없다
+ - fargate에 대해서만 
+
 ### 로그 통합하는 법
 implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
