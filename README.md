@@ -65,8 +65,18 @@ arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_USERN
 
 
 ### app mesh
+ - 내부망을 위한 프록시이다
+ - ecs에서 설정해도 ec2에서 접근 가능하다
  - 추가 요금이 없다
  - fargate에 대해서만 
 
+#### terminal에서 json 포맷되게 보는 법
+```
+$ sudo yum install jq
+ 
+$ curl http://json호출주소 | jq
+```
+ 
+ 
 ### 로그 통합하는 법
 implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
