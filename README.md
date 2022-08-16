@@ -70,6 +70,11 @@ arn:aws:ssm:us-east-1:35906889:parameter/dev/currency-exchange-service/RDS_USERN
  - 추가 요금이 없다
  - fargate에 대해서만 
 
+#### envoy setting options
+ - 갱신하게 되면 새로 만들어 주어야 함
+ - ENABLE_ENVOY_XRAY_TRACING : 1
+ - ENVOY_LOG_LEVEL : trace
+
 #### terminal에서 json 포맷되게 보는 법
 ```
 $ sudo yum install jq
@@ -80,3 +85,5 @@ $ curl http://json호출주소 | jq
  
 ### 로그 통합하는 법
 implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+
+
