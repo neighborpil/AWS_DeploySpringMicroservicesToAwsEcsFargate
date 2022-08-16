@@ -87,3 +87,19 @@ $ curl http://json호출주소 | jq
 implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 
 
+### cli
+$ aws configure 
+
+IAM에서 cli 접근 키 생성 후
+아이디설정
+키 설정
+기본지역 설정
+
+$ aws servicediscovery list-services
+
+$ aws servicediscovery delete-service --id=srv-czklcexmh5jh5p2w
+
+
+$ aws servicediscovery list-namespaces
+
+$ aws servicediscovery delete-namespace --id=ns-ewrulluidzvfme5x
